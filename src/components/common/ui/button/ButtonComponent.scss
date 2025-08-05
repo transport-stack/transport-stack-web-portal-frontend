@@ -1,0 +1,82 @@
+.buttonComponent {
+  min-width: 120px;
+  padding: 8px;
+  font-size: 14px;
+  max-width: 240px;
+  margin-right: 8px;
+  border: none;
+  cursor: pointer;
+  .spinner-border{
+    margin-right: 8px;
+  }
+  &:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+  }
+  &.primaryBlue {
+    color: #fff;
+    background-color: #25a7ff;
+    border: none;
+    font-family: "Roboto-Medium";
+    &:hover {
+      background-color: #2e4d9c;
+    }
+    &:disabled {
+      &:hover {
+        background-color: #25a7ff;
+      }
+    }
+  }
+  &.primaryWhite {
+    color: #25a7ff;
+    border: 1px solid #25a7ff;
+    background-color: #fff;
+    font-family: "Roboto-Medium";
+    &:disabled {
+      &:hover {
+        background-color: #fff;
+      }
+    }
+  }
+  &.secondaryWhite {
+    color: #2e4d9c;
+    background-color: #fff;
+    font-family: "Roboto-Bold";
+    &:hover {
+      background-color: #2e4d9c;
+      color: white;
+    }
+    &:disabled {
+      &:hover {
+        background-color: #fff;
+        color: #2e4d9c;
+      }
+    }
+  }
+  &.secondaryBlue {
+    color: #fff;
+    background-color: #0086e0;
+    &:disabled {
+      &:hover {
+        background-color: #0086e0;
+      }
+    }
+  }
+  &.tertiaryWhite {
+    color: #0186e0;
+    background-color: #fff;
+    &:disabled {
+      &:hover {
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .buttonComponent{
+    &.primaryBlue, &.secondaryWhite, &.primaryWhite, &.secondaryBlue{
+      height: 36px;
+    }
+  }
+}

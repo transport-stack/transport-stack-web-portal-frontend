@@ -1,0 +1,199 @@
+.details {
+  &__banner {
+    background-color: #0179e6;
+    background-image: url(../images/heading-Banner.png);
+    height: calc(100vh - 140px);
+    padding-top: 48px;
+    padding-bottom: 32px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 400px;
+    min-height: fit-content;
+    .header-title {
+      font-size: 46px;
+      font-family: Roboto-Bold;
+      color: white;
+      margin-bottom: 28px;
+    }
+    .breadcrumb_subname {
+      color: white;
+    }
+    .primaryWhite {
+      height: 50px;
+      width: 268px;
+      font-size: 16px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+  }
+  &_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    p {
+      font-size: 22px;
+      font-family: Roboto-Regular;
+      color: white;
+      min-height: 100px;
+    }
+  }
+  &_picture {
+    height: 250px;
+    &-img {
+      height: 350px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  &__content {
+    margin-bottom: 70px;
+    padding-top: 20px;
+    &-features-data {
+      padding-top: 26px;
+      label {
+        font-size: 16px;
+      }
+      p {
+        font-size: 16px;
+        font-family: Roboto-Bold;
+      }
+      hr {
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+    }
+    &-tabs {
+      margin-top: 32px;
+      .nav-tabs {
+        margin-top: 36px;
+        background-color: #f0f0f0;
+      }
+      .nav-link.active {
+        font-family: Roboto-Bold;
+        border: unset;
+        background-color: #f0f0f0;
+        border-bottom: 2px solid #25a7ff;
+        color: #323232;
+      }
+      .nav-link {
+        border-radius: 0px;
+        border: 0px;
+        border-bottom: 2px solid #f0f0f0;
+        color: #323232;
+        height: 50px;
+      }
+      .tab-content {
+        background-color: white;
+        padding: 20px;
+        min-height: 300px;
+        .tab-pane p {
+          padding-bottom: 16px;
+        }
+        .tab-pane .document-link {
+          text-decoration: underline;
+          cursor: pointer;
+          border: none;
+          background: none;
+          word-break: break-all;
+          text-align: left;
+        }
+        .tab-pane a {
+          color: #0186e0;
+          text-decoration: none;
+          cursor: pointer;
+        }
+        .tab-pane a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .details_picture-img {
+    height: 100%;
+  }
+  .details__content-tabs {
+    margin-top: 0px;
+  }
+  .details__content-tabs .nav-tabs {
+    margin-top: 0px;
+  }
+  .details__content-tabs .nav-link {
+    padding: 14px 12px;
+  }
+  .details__banner {
+    padding-top: 80px;
+    max-height: fit-content;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .details {
+    &__banner {
+      padding-bottom: 20px;
+      max-height: unset;
+      min-height: unset;
+      height: unset;
+      .container {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      padding-top: 48px;
+      &-subname {
+        font-size: 20px;
+        color: white;
+        font-family: Roboto-Medium;
+        margin-bottom: 30px;
+      }
+      .primaryWhite {
+        margin-top: 18px;
+        margin-bottom: 18px;
+        max-width: 100%;
+        width: 100%;
+        height: 36px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+      .details_picture {
+        padding: 8px !important;
+        background-color: white;
+        height: auto;
+        margin-bottom: 38px;
+      }
+      .details_picture-img {
+        height: 220px;
+      }
+      .details_description {
+        padding-left: 0px !important;
+        p {
+          font-size: 16px;
+          min-height: auto;
+        }
+      }
+    }
+    &__content {
+      padding: 30px;
+      margin-bottom: 0px;
+
+      &-tabs {
+        padding-right: 0px !important;
+        .nav-tabs {
+          margin-top: 0px;
+        }
+      }
+      &-features {
+        padding-left: 0px !important;
+        &-data {
+          padding-top: 22px;
+        }
+      }
+    }
+    #content_details {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}

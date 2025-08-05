@@ -1,0 +1,109 @@
+.admin-tabs {
+  padding: 0px;
+  .main-tabs {
+    margin-bottom: 30px;
+    .nav-link {
+      color: #25a7ff;
+      font-size: 16px;
+      background-color: #f7f7f7;
+      height: 62px;
+      max-width: 188px;
+      text-align: left;
+      border-radius: 0px;
+      padding: 10px;
+      align-items: center;
+      display: flex;
+      border-bottom: 4px solid #f7f7f7;
+    }
+    .nav-link.active {
+      font-family: Roboto-Bold;
+      color: #2d4c9a;
+      background-color: #f7f7f7;
+      border: none;
+      border-bottom: 4px solid #2d4c9a;
+      max-width: 190px;
+    }
+    .nav-tabs {
+      border-bottom: 1px solid #2e4d9c;
+      display: flex;
+      justify-content: space-between;
+    }
+    .nav-pills {
+      border-bottom: 2px solid #526dad;
+      margin-bottom: 30px;
+    }
+    .img-fluid {
+      height: 24px;
+      margin-right: 6px;
+    }
+    .tab-content {
+      min-height: 200px;
+    }
+    .admin_names {
+      width: min-content;
+      padding-right: 12px;
+    }
+    #long_text{
+      width: max-content;
+    }
+    .nav-item{
+      margin: 0px 3px;
+    }
+  }
+
+  .sub-tabs {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #25a7ff;
+    &.nav-tabs {
+      border-color: #25a7ff;
+    }
+    .nav-link {
+      padding: 16px 18px 14px;
+      font-size: 16px;
+      line-height: 19px;
+      color: #3e3e3e;
+      &.active {
+        font-family: "Roboto-Medium";
+        border: 1px solid #25a7ff;
+        border-bottom: 4px solid #25a7ff;
+        border-radius: 0;
+        background: none;
+        &:hover {
+          border: 1px solid #25a7ff;
+          border-bottom: 4px solid #25a7ff;
+        }
+      }
+      &:hover {
+        border-color: transparent;
+      }
+    }
+  }
+}
+.button-icon {
+  padding: 10px 24px 10px 20px;
+  img {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+  }
+}
+.select-secondary {
+  .select-box__label {
+    font-family: "Roboto-Bold";
+    font-size: 14px;
+    color: #424242;
+    margin-bottom: 4px;
+  }
+  .select-box__input {
+    background-color: white;
+    font-size: 14px;
+    color: #424242;
+    border-color: #c9c9c9;
+  }
+  .select-box__item {
+    font-size: 14px;
+  }
+}
+.filter__container {
+  margin-bottom: 30px;
+}

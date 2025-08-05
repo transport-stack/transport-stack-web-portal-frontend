@@ -1,0 +1,95 @@
+.FileUpload {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.fileUploadControls {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fileMinusButton {
+  font-size: 2rem;
+}
+
+.FileUploadRow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.fileUploadRowInputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fileUploadTitle {
+  width: 400px;
+  padding: 0.5rem;
+  border: 1px solid #323232;
+}
+
+.fileUploadAttach {
+  display: none;
+  &:disabled {
+    & ~ label {
+      img {
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+.fileUploadIcon,
+.fileDeleteButton,
+.fileDeleteButtonDetails {
+  cursor: pointer;
+  padding: 0;
+  color: #ececec;
+  background-color: #323232;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  img {
+    height: 31px;
+    width: 31px;
+  }
+}
+.filePlusButton,
+.fileMinusButton {
+  border: none;
+  background: none;
+  height: 31px;
+  width: 31px;
+}
+
+.fileDeleteButtonDetails {
+  margin-left: 10px;
+}
+
+.filePlusButton {
+  font-size: 2rem;
+}
+
+.fileDetails {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.FilesTable {
+  margin: 16px 0;
+
+  td,th {
+    padding-right: 16px;
+  }
+  thead {
+    font-family: "Roboto-Bold";
+  }
+}

@@ -1,0 +1,15 @@
+.pagenotfound {
+  text-align: center;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h1 {
+    font-size: 40px;
+    font-family: "Roboto-Bold";
+  }
+  button {
+    margin: 24px;
+  }
+}

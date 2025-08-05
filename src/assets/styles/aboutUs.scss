@@ -1,0 +1,444 @@
+.aboutUs {
+  .header {
+    background-color: #0179e6;
+    background-image: url(../images/heading-Banner.png);
+    height: calc(100vh - 104px);
+    padding-top: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 400px;
+    min-height: 400px;
+  }
+  .introduction {
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    &__bg {
+      background-image: url(../images/about-us-bg.png);
+      height: 838px;
+      margin-bottom: 70px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: -244px;
+      position: relative;
+    }
+    &__content {
+      position: relative;
+      left: -23px;
+      top: 60px;
+      background-color: #2e4d9c;
+      padding: 48px 200px 48px 60px;
+      color: white;
+      width: 64%;
+
+      h2 {
+        font-size: 32px;
+        font-family: Roboto-Medium;
+        margin-bottom: 22px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: Roboto-Regular;
+      }
+    }
+    &__objects {
+      position: relative;
+      left: -23px;
+      top: 60px;
+      background-color: #2e4d9c;
+      padding-left: 60px;
+      padding-right: 60px;
+      color: white;
+      width: 102%;
+      padding-bottom: 90px;
+      h3 {
+        font-size: 24px;
+        font-family: Roboto-Medium;
+        padding-bottom: 32px;
+        padding-top: 14px;
+      }
+    }
+    &__objects-data {
+      div:not(:last-child) {
+        border-right: 2px dotted #fff;
+      }
+      .link-arrow {
+        height: 30px;
+        width: 30px;
+      }
+    }
+  }
+  &__benefits {
+    background-image: url(../images/benifits-bg.png);
+    background-size: 100% 996px !important;
+    background-repeat: no-repeat;
+    height: 860px;
+    margin-bottom: 200px;
+    padding-top: 90px;
+
+    &-title {
+      background-color: #000000;
+      opacity: 0.76;
+      height: 80px;
+      color: white;
+      width: 834px;
+      margin-bottom: 40px;
+      h2 {
+        font-size: 32px;
+        font-family: Roboto-Medium;
+      }
+    }
+    .react-multi-carousel-item {
+      display: contents !important;
+    }
+    .react-multi-carousel-track {
+      margin-top: 83px !important;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      background-color: white;
+      width: 416px;
+      height: 298px;
+      margin-bottom: 88px;
+      border-radius: 0px;
+      box-shadow: 0px 3px 56px #00000045;
+      margin-left: 38px;
+      margin-right: 38px;
+
+      .card-body {
+        padding: 45px 30px;
+        padding-bottom: 0px;
+      }
+      .card-title {
+        font-size: 18px;
+        color: #0186e0;
+        font-family: Roboto-Regular;
+      }
+      .card-text {
+        font-size: 14px;
+        font-family: Roboto-Regular;
+      }
+      .card_img {
+        position: absolute;
+        width: 213px;
+        right: 8px;
+        top: -90px;
+      }
+    }
+  }
+  .key-principles {
+    background-image: url(../images/key-principle.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-bottom: 60px;
+    align-content: center;
+    padding-left: 80px;
+    background-position: center;
+    &__img {
+      height: 300px;
+      width: 426px;
+      // margin-left: 10%;
+    }
+  }
+  &__road-map {
+    background-image: url(../images/road-map-update.png);
+    background-size: 100% !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+    align-content: center;
+  }
+  .council-members,
+  .panel-members {
+    padding-bottom: 44px;
+    border-bottom: 1px solid #979696;
+    &__card {
+      margin-bottom: 26px;
+    }
+    &__title {
+      color: #2e4d9c;
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 70px;
+      margin-top: 70px;
+      font-family: Roboto-Bold;
+    }
+    &__img {
+      height: 170px;
+      width: 170px;
+    }
+    &__name {
+      font-size: 16px;
+      font-family: Roboto-Bold;
+      padding-top: 16px;
+    }
+    &__role {
+      font-size: 14px;
+      font-family: Roboto-Regular;
+      text-align: center;
+      padding-top: 16px;
+      width: 80%;
+    }
+  }
+  .panel-members .carousel-items {
+    justify-content: center;
+  }
+
+  // .panel-members .react-multi-carousel-list ul:nth-of-type(n<5) {
+  //   justify-content: center !important;
+  // }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1199px) {
+  .aboutUs__benefits .card {
+    width: 392px;
+  }
+  .aboutUs .key-principles {
+    video {
+      width: 400px;
+      margin-left: -50px;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .aboutUs {
+    .introduction {
+      max-width: 720px;
+      &__content {
+        padding: 50px 50px 50px 50px;
+        left: -22px;
+      }
+      &__objects {
+        left: -22px;
+        padding-left: 50px;
+        padding-right: 50px;
+        width: 103%;
+        padding-bottom: 60px;
+      }
+      &__bg {
+        height: 676px;
+        margin-bottom: 380px;
+      }
+    }
+    .council-members,
+    .panel-members {
+      &__role {
+        width: 100%;
+      }
+    }
+    &__road-map {
+      background-size: 100% !important;
+      height: 400px;
+      background-position: center;
+    }
+    .key-principles {
+      background-size: 100% !important;
+      height: 400px;
+      background-position: center;
+      padding-left: 5%;
+      &__img {
+        height: 222px;
+        width: 294px;
+        // margin-left: 5%;
+      }
+      video {
+        width: 300px;
+        height: 200px;
+        margin-left: 0px;
+      }
+    }
+    &__benefits {
+      margin-bottom: 70px;
+      background-size: 100% 730px !important;
+      height: 730px;
+      padding-top: 40px;
+
+      &-title {
+        width: 700px;
+        padding: 28px 46px;
+        margin-bottom: 38px;
+        h2 {
+          font-size: 28px;
+        }
+      }
+      .card {
+        margin-bottom: 0px;
+        width: auto;
+        // width: 318px;
+        margin: 0px;
+        height: 416px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .card .card-body {
+        padding-top: 80px;
+        padding-bottom: 0px;
+      }
+      .custom-carousel-dot > li.active {
+        background: white 0% 0% no-repeat padding-box;
+      }
+      .custom-carousel-dot > li {
+        background: white 0% 0% no-repeat padding-box;
+      }
+      .react-multi-carousel-track {
+        margin-top: 66px !important;
+        flex-wrap: unset;
+      }
+      .react-multi-carousel-item {
+        display: flex !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .aboutUs {
+    .header {
+      height: 104px;
+      padding-top: 48px;
+      padding-left: 30px;
+      min-height: unset;
+      .header__breadcrumb {
+        padding: 0px;
+        .breadcrumb {
+          display: none;
+        }
+      }
+    }
+    .introduction {
+      &__bg {
+        background-image: unset;
+        height: auto;
+        margin-top: 0px;
+        position: unset;
+        margin-bottom: 0px;
+      }
+      &__content {
+        width: 100%;
+        position: unset;
+        padding: 30px;
+        padding-bottom: 12px;
+        h2 {
+          font-size: 24px;
+        }
+        p {
+          padding-bottom: 20px !important;
+        }
+      }
+      &__objects-data {
+        margin-left: 0px;
+        margin-right: 0px !important;
+      }
+      &__objects {
+        position: unset;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        width: 100%;
+
+        &-data div:not(:last-child) {
+          border-right: unset;
+          border-bottom: 2px dotted #fff;
+        }
+        &-data div {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
+      }
+    }
+    &__benefits {
+      margin-bottom: 0px;
+      background-size: 100% 100% !important;
+      padding-bottom: 30px;
+      padding-top: 40px;
+      height: auto;
+
+      .container {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      &-title {
+        width: 350px;
+        padding: 28px 46px;
+        margin-bottom: 38px;
+        h2 {
+          font-size: 24px;
+        }
+      }
+      .card {
+        margin-bottom: 0px;
+        width: auto;
+        margin: 0px;
+        height: auto;
+        padding-bottom: 30px;
+      }
+      .custom-carousel-dot > li.active {
+        background: white 0% 0% no-repeat padding-box;
+      }
+      .custom-carousel-dot > li {
+        background: white 0% 0% no-repeat padding-box;
+      }
+      .react-multi-carousel-track {
+        margin-top: 66px !important;
+        flex-wrap: unset;
+      }
+      .react-multi-carousel-item {
+        margin-bottom: 25px;
+        display: flex !important;
+      }
+    }
+    .key-principles {
+      background-image: url(../images/key-resource.png);
+      height: 970px;
+      align-items: unset;
+      display: flex;
+      padding-top: 30px;
+      margin-bottom: 0px;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-size: auto !important;
+      background-position: center;
+      max-width: 430px;
+
+      .container {
+        display: flex;
+        justify-content: center;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+
+      &__img {
+        height: 250px;
+        width: 100%;
+        margin-left: unset;
+      }
+    }
+    &__road-map {
+      background-image: url(../images/about-us-roadmap.png);
+      height: 800px;
+      background-size: auto !important;
+      background-position: center;
+    }
+    .council-members,
+    .panel-members {
+      .container {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      &__title {
+        font-size: 40px;
+        margin-top: 54px;
+        margin-bottom: 42px;
+      }
+    }
+  }
+}

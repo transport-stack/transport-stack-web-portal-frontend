@@ -1,0 +1,90 @@
+.pie_chart {
+  width: 100%;
+  background-color: white;
+  margin-top: 40px;
+  margin-right: 16px;
+  padding: 20px;
+  &_title {
+    font-size: 18px;
+    font-family: Roboto-Bold;
+    margin-bottom: 10px;
+  }
+  .recharts-wrapper {
+    width: 236px !important;
+  }
+  .recharts-legend-wrapper {
+    width: 236px !important;
+  }
+  .recharts-legend-item-text {
+    font-size: 14px !important;
+  }
+}
+.line_chart {
+  background-color: white;
+  margin-top: 40px;
+  padding: 20px;
+  &_title {
+    font-size: 18px;
+    font-family: Roboto-Bold;
+    margin-bottom: 10px;
+  }
+  // .recharts-wrapper {
+  //   width: 564px !important;
+  // }
+  .recharts-legend-item-text {
+    font-size: 14px !important;
+  }
+}
+.bar_chart {
+  background-color: white;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 18px;
+  &_title {
+    font-size: 18px;
+    font-family: Roboto-Bold;
+    margin-bottom: 10px;
+  }
+  .recharts-legend-item-text {
+    font-size: 14px !important;
+  }
+}
+
+.recharts-cartesian-axis-tick-value {
+  font-size: 12px;
+}
+
+.recharts-tooltip-wrapper {
+  font-size: 12px;
+}
+
+.year_drop {
+  background-color: white;
+  padding: 12px 10px 12px 0px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+}
+
+.year_drop .formComponent .form-floating .form-select {
+  min-width: 100px;
+  min-height: 36px;
+  border: 1px solid #25a7ff !important;
+  padding: 0px 4px 0px 10px !important;
+  margin-top: 18px;
+  height: 36px !important;
+}
+.year_drop .formComponent .form-floating label {
+  margin-top: -26px;
+}
+.year_drop select option[value=""] {
+  color: #aaa;
+  display: none;
+}
+.empty {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}

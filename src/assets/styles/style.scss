@@ -1,0 +1,176 @@
+body {
+  background-color: #fafafa;
+  color: #323232;
+  font-family: "Roboto-Regular";
+  font-size: 16px;
+}
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.section__heading {
+  font-family: "Roboto-Bold";
+  font-size: 36px;
+}
+.is-invalid-border-only {
+  border-color: red !important;
+  color: red;
+  font-size: 14px;
+  font-family: "Roboto-Regular";
+}
+.success-message {
+  color: green;
+}
+.form-control.is-invalid {
+  background-image: none !important;
+}
+.star {
+  color: red;
+  font-family: "Roboto-Bold";
+}
+.registerTerms {
+  color: #2e4d9c;
+  font-family: "Roboto-Bold";
+}
+.transportStackLogo{
+  max-height: 90px;
+  margin-top: 2px;
+  position: relative;
+  top: 2px;
+}
+.registerLabel {
+  font: normal normal bold 35px / 42px Roboto-Bold;
+  color: #2e4d9c;
+}
+.normalLabel {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.iconProfile {
+  margin-bottom: 1rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #a3a3a3;
+  border-radius: inherit;
+}
+.validate {
+  margin-bottom: 2.5rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid red;
+  border-radius: inherit;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.has-link {
+  background: none;
+  border: none;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.section-container {
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  padding: 0 64px;
+  &__heading {
+    font-size: 32px;
+    font-family: "Roboto-Bold";
+    line-height: 48px;
+    color: #2e4d9c;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.ovalCard {
+  background: #e6e6e6 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  padding: 8px 24px;
+  text-align: center;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  color: black;
+  display: inline-block; /* so height and width actually take affect */
+  max-width: 46%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.eye_icon {
+  display: flex;
+  float: right;
+  position: relative;
+  bottom: 0;
+  top: -30px;
+  right: 4px;
+  cursor: pointer;
+  width: 20px;
+  height: 16px;
+}
+.show_password_icon {
+  width: 16px;
+  height: 12px;
+  margin-top: 2px;
+}
+
+.view_reports .formComponent .buttonComponent.primaryBlue {
+  min-width: 44px;
+  margin-top: 20px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.floating_textarea_label textarea{
+  padding-top: 0px !important;
+  margin-top: 26px;
+}
+.floating_textarea_label label{
+  margin-top: -26px;
+}
+
+@media screen and (max-width: 1400px) {
+  .registerHeader {
+    font-size: 22px;
+    line-height: 33px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section-container {
+    padding: 30px 30px 0;
+  }
+  .section__heading {
+    font-size: 32px;
+  }
+  .button-container {
+    button {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  .ovalCard {
+    padding: 8px 12px;
+  }
+}

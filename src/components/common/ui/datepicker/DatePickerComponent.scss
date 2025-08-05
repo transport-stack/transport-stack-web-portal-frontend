@@ -1,0 +1,26 @@
+.custom-datepicker {
+  .floating-label {
+    &.form-label {
+      padding-top: 6px;
+      padding-left: 2px;
+    }
+    &.focused {
+      top: -24px;
+    }
+  }
+  .react-datepicker-wrapper {
+    display: block;
+    margin-top: 18px;
+    input {
+      padding-left: 2px;
+    }
+  }
+  .clear-button {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    background: none;
+    border: none;
+    font-size: 16px;
+  }
+}

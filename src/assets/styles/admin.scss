@@ -1,0 +1,39 @@
+.admin-content {
+  &.header-content {
+    .userName {
+      background-color: #25a7ff;
+    }
+    .userName-header {
+      .user-drop {
+        button {
+          background-color: #25a7ff !important;
+          border: 1px solid #25a7ff !important;
+        }
+
+        .dropdown-menu {
+          background-color: #25a7ff !important;
+        }
+
+        .dropdown-item {
+          &:focus,
+          &:hover {
+            background-color: #25a7ff !important;
+          }
+        }
+      }
+    }
+    .adminHeading {
+      padding-left: 24px;
+      color: #25a7ff;
+      font-size: 26px;
+      font-family: "Roboto-Bold";
+    }
+  }
+}
+
+.form-title {
+  font-size: 20px;
+  font-family: "Roboto-Medium";
+  color: #25a7ff;
+  margin-bottom: 8px;
+}

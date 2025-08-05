@@ -1,0 +1,47 @@
+.dashboard {
+  margin-top: -30px;
+  .nav-item {
+    width: 212px;
+  }
+  .sub-tabs {
+    margin-bottom: 48px;
+    border-bottom: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .sub-tabs .nav-link {
+    height: 56px;
+  }
+  .sub-tabs .nav-link.active {
+    border: none;
+    background-color: #25a7ff;
+    color: white;
+  }
+  .sub-tabs .nav-link.active:hover {
+    border: none;
+  }
+  .outlet {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    margin-right: -40px;
+  }
+  .nav-link_name {
+    padding-left: 12px;
+    font-size: 14px;
+  }
+  .img-fluid {
+    width: 30px;
+    height: 30px;
+  }
+  &_outer_image{
+    min-width: 26px;
+    display: flex;
+    justify-content: center;
+    height: 26px;
+  }
+  
+}

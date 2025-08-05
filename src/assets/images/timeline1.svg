@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="194" height="135" viewBox="0 0 194 135">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_21835" data-name="Rectangle 21835" width="194" height="86" transform="translate(128 1361)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_110844" data-name="Group 110844" transform="translate(-128 -1361)">
+    <g id="Mask_Group_101" data-name="Mask Group 101" clip-path="url(#clip-path)">
+      <circle id="Ellipse_190" data-name="Ellipse 190" cx="74" cy="74" r="74" transform="translate(158 1368)" fill="#e8e8e8"/>
+    </g>
+    <g id="Group_110838" data-name="Group 110838" transform="translate(3)">
+      <circle id="Ellipse_109" data-name="Ellipse 109" cx="55" cy="55" r="55" transform="translate(175 1386)" fill="#0186e0"/>
+      <g id="Group_110745" data-name="Group 110745" transform="translate(33 9)">
+        <circle id="Ellipse_108" data-name="Ellipse 108" cx="28" cy="28" r="28" transform="translate(169 1404)" fill="#fff"/>
+        <path id="Path_184" data-name="Path 184" d="M65.009,49.488a.826.826,0,0,0-.826.826v2.479H47.653V32.959h3.306v.826a.826.826,0,0,0,.826.826H60.05a.826.826,0,0,0,.826-.826v-.826h3.306v.826a.826.826,0,0,0,1.653,0V32.132a.826.826,0,0,0-.826-.826H60.876v-.826A2.479,2.479,0,0,0,58.4,28H53.438a2.479,2.479,0,0,0-2.479,2.479v.826H46.826a.826.826,0,0,0-.826.826V53.621a.826.826,0,0,0,.826.826H65.009a.826.826,0,0,0,.826-.826V50.315A.826.826,0,0,0,65.009,49.488Zm-12.4-19.009a.826.826,0,0,1,.826-.826H58.4a.826.826,0,0,1,.826.826v2.479H52.612Zm19.594,7.68L68.9,34.853a.826.826,0,0,0-1.17,0l-9.918,9.918a.826.826,0,0,0-.241.585v3.306a.826.826,0,0,0,.826.826H61.7a.826.826,0,0,0,.585-.241l9.918-9.918a.826.826,0,0,0,0-1.17ZM59.224,47.835V45.7l9.091-9.091,2.137,2.137-9.091,9.091Zm-3.306.826a.826.826,0,0,1-.826.826H51.785a.826.826,0,0,1,0-1.653h3.306A.826.826,0,0,1,55.918,48.662Zm0-4.959a.826.826,0,0,1-.826.826H51.785a.826.826,0,0,1,0-1.653h3.306A.826.826,0,0,1,55.918,43.7Zm4.132-4.132H51.785a.826.826,0,0,1,0-1.653H60.05a.826.826,0,0,1,0,1.653Z" transform="translate(139.529 1390.876)"/>
+      </g>
+    </g>
+  </g>
+</svg>

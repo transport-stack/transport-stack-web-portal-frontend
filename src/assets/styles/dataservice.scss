@@ -1,0 +1,158 @@
+.dataservice {
+  &__banner {
+    background-color: #0179e6;
+    background-image: url(../images/heading-Banner.png);
+    height: calc(100vh - 140px);
+    padding-top: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 400px;
+    min-height: 400px;
+    .left-arrow {
+      display: none;
+    }
+
+    .header-title {
+      font-size: 46px;
+      font-family: Roboto-Bold;
+      color: white;
+      margin-bottom: 16px;
+    }
+
+    &-dropdown {
+      margin-bottom: 52px;
+      .select-box__label {
+        font-size: 18px;
+        color: white;
+      }
+      .drop_lg {
+        width: 300px;
+        margin-right: 24px;
+      }
+      .drop_md {
+        width: 130px;
+      }
+    }
+  }
+  &__btns {
+    margin-top: -250px;
+
+    .header-title {
+      font-size: 32px;
+      font-family: Roboto-Bold;
+      color: white;
+      margin-bottom: 16px;
+    }
+
+    .form-select {
+      margin-right: 24px;
+    }
+    .nav-tabs {
+      border-bottom: unset;
+      margin-bottom: 32px;
+      .nav-link {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+        font-family: Roboto-Medium;
+        border-radius: 0px;
+        margin-right: 12px;
+        color: #25a7ff;
+        background-color: white;
+        border: unset;
+      }
+      .nav-link.active {
+        color: #fff;
+        background-color: #25a7ff;
+        border: unset;
+      }
+      .nav-link.active:hover {
+        background-color: #2e4d9c;
+      }
+    }
+    .pagination {
+      margin-top: 30px;
+    }
+    .data_cards:nth-child(3n-2) .product-card .card {
+      margin-left: 0px;
+    }
+    .data_cards:nth-child(3n) .product-card .card {
+      margin-right: 0px;
+    }
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .dataservice__banner-dropdown {
+    .drop_lg {
+      width: 260px;
+      margin-right: 24px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .dataservice {
+    .left-arrow {
+      display: block !important;
+      padding-right: 18px;
+    }
+
+    &__banner {
+      padding-top: 48px;
+      height: 570px;
+      max-height: unset;
+      min-height: unset;
+      .container {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .header-title {
+        font-size: 26px !important;
+        margin-bottom: 0px;
+      }
+      &-dropdown {
+        flex-direction: column;
+        .select-box__label {
+          font-size: 16px;
+        }
+        .drop_lg,
+        .drop_md {
+          margin-right: 0px;
+          width: 100%;
+          margin-bottom: 18px;
+        }
+      }
+    }
+    &__btns {
+      margin-top: -458px;
+      padding-left: 30px;
+      padding-right: 30px;
+      .header-title {
+        font-size: 26px !important;
+        margin-bottom: 24px;
+      }
+      .nav-tabs {
+        display: flex;
+        justify-content: space-between;
+        max-width: 372px;
+      }
+      .nav-link {
+        width: 100% !important;
+        max-width: 180px;
+      }
+      .nav-item {
+        width: 49%;
+      }
+      .select-box__input {
+        font-size: 16px;
+      }
+    }
+  }
+  .servicesbanner {
+    .dataservice__banner {
+      height: 476px !important;
+    }
+    .dataservice__btns {
+      margin-top: -366px !important;
+    }
+  }
+}

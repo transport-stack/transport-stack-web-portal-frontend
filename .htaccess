@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Proxy rule to forward API requests to the backend service in EKS
+  RewriteRule ^api/(.*)$ http://k8s-default-frontend-c69efe62a5-1872810696.ap-south-1.elb.amazonaws.com/$1 [P,L]
+
+  # Don't rewrite files or directories
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Rewrite all other requests to index.html
+  RewriteRule ^(.*)$ /index.html [L,QSA]
+</IfModule>

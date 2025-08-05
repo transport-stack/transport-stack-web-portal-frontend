@@ -1,0 +1,410 @@
+.resource-details {
+  font-family: Roboto-Regular;
+  .content-header {
+    background-image: url(../images/heading-Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Roboto-Regular;
+    height: 424px;
+    padding-top: 48px;
+  }
+  .content-header .left-arrow {
+    display: none;
+  }
+  .content-header .header-title {
+    font-size: 32px;
+    font-family: Roboto-Bold;
+    color: white;
+  }
+  .content-body {
+    background-image: url(../images/resource-section-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 584px;
+    min-height: 750px;
+    margin-bottom: 40px;
+  }
+  .details {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 3px 56px #00000045;
+    margin-top: -256px;
+    min-height: 930px;
+  }
+  .picture-img {
+    height: 222px;
+    width: 420px;
+    padding-right: 20px;
+  }
+  .details-tab {
+    width: 100%;
+    position: relative;
+  }
+  .details-tab .nav-pills {
+    flex-direction: row !important;
+  }
+  .nav-items {
+    bottom: 0;
+    position: absolute;
+  }
+  .close-icon {
+    font-size: 32px;
+    margin-top: -16px;
+    float: right;
+    cursor: pointer;
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .show > .nav-link {
+    background-color: #25a7ff;
+    border-radius: 0px;
+    color: white;
+    height: 66px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Roboto-Bold;
+  }
+  .nav-pills .nav-link {
+    border-radius: 0px;
+    color: #25a7ff;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    font-family: Roboto-Bold;
+    height: 66px;
+    border: 1px solid #25a7ff;
+    margin-right: 12px;
+  }
+  .nav-pills .nav-link:hover {
+    background-color: #25a7ff;
+    color: white;
+  }
+  .nav-items .item2 {
+    width: 34.5%;
+    .nav-link {
+      margin-right: 0px;
+    }
+  }
+  .inner-content::-webkit-scrollbar-track {
+    border: 3.5px solid white;
+    background-color: #b2bec3;
+    background-clip: content-box;
+  }
+
+  .inner-content::-webkit-scrollbar {
+    width: 8px;
+    background-color: #dfe6e9;
+  }
+
+  .inner-content::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #323232 0% 0% no-repeat padding-box;
+    height: 132px;
+  }
+  .picture-title {
+    position: absolute;
+    top: 122px;
+    z-index: 10;
+    color: white;
+    padding-left: 14px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+    width: 50%;
+    font-size: 36px;
+  }
+  .details-picture {
+    position: relative;
+  }
+  .cards {
+    min-width: 100% !important;
+  }
+  .mobile-view-btn {
+    display: none;
+  }
+  .user_support {
+    font-family: Roboto-Regular;
+    .inner-content {
+      max-height: 484px;
+      overflow: auto;
+      padding-bottom: 20px;
+      font-family: Roboto-Regular;
+    }
+    h2 {
+      color: #323232;
+      border-bottom: 2px dotted #ccc;
+      font-size: 40px;
+      font-family: Roboto-Regular;
+      font-weight: normal;
+      padding-bottom: 28px;
+      padding-top: 28px;
+      margin-bottom: 10px;
+    }
+    h3 {
+      font-size: 24px;
+      font-family: Roboto-Bold;
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+    h4 {
+      font-size: 16px;
+      font-family: Roboto-Bold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    h5 {
+      font-size: 16px;
+      font-family: Roboto-Medium;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      font-family: Roboto-Regular;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .primaryBlue {
+      width: 150px;
+      float: right;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      margin-right: 32px;
+    }
+    .custom-table th {
+      background-color: #ccc;
+      font-size: 18px;
+      padding: 20px 10px;
+      vertical-align: middle;
+    }
+    .custom-table td {
+      width: 19% !important;
+    }
+    .table-responsive {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .stage-tr td {
+      background-color: #c8e1f1;
+    }
+    .stage-tr td:nth-child(1) {
+      font-weight: bold;
+    }
+    #table_regulation {
+      width: 30%;
+    }
+    // .user_guide_video{
+    //   margin-top: -30px;
+    // }
+  }
+  .picture-description {
+    display: none;
+  }
+  .postman-guide{
+    width: 98%;
+  }
+  .DTC_logos{
+    width: auto;
+    height: 464px;
+  }
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1199px) {
+  .resource-details {
+    .content-header {
+      .container {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+    }
+    .details-header {
+      flex-direction: column;
+    }
+    .close-icon {
+      position: absolute;
+      top: -236px;
+      right: -2px;
+    }
+    .nav-items {
+      position: unset;
+    }
+    .details-tab {
+      margin-top: 12px;
+    }
+  }
+  .user_support .details-tab {
+    padding-top: 12px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .resource-details {
+    .content-header {
+      .container {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+    }
+    .details-header {
+      flex-direction: column;
+    }
+    .close-icon {
+      position: absolute;
+      top: -236px;
+      right: -2px;
+    }
+    .nav-items {
+      position: unset;
+    }
+    .details-tab {
+      margin-top: 12px;
+    }
+  }
+  .user_support .details-tab {
+    padding-top: 12px;
+  }
+  // .user_support .user_guide_video {
+  //   margin-top: -90px;
+  // }
+  // .user_support .user_guide_video .video_play{
+  //   width: 70%;
+  // }
+}
+@media only screen and (max-width: 767px) {
+  .resource-details {
+    .content-header .container {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .content-header .breadcrumb {
+      display: none;
+    }
+    .content-header {
+      padding-left: 30px;
+      padding-right: 30px;
+      background-size: 100% 290px;
+      margin-top: 8px;
+      padding-top: 48px;
+      margin-bottom: 0px;
+      height: 290px;
+    }
+
+    .content-header .header-title{
+      font-size: 26px;
+      margin-bottom: 0px;
+    }
+    .content-header .left-arrow {
+      display: block;
+      padding-right: 12px;
+    }
+    .content-body {
+      background-image: unset;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .details {
+      background-color: unset;
+      padding: 0px;
+      box-shadow: unset;
+      margin-top: -184px;
+      min-height: unset;
+    }
+    .close-icon {
+      display: none;
+    }
+    .picture-img {
+      height: 220px;
+      padding-right: 0px;
+      max-width: 350px;
+      width: 100%;
+    }
+    .details-header {
+      flex-direction: column;
+      align-items: center;
+    }
+    .nav-pills .nav-item {
+      width: 100%;
+      margin-bottom: 8px;
+    }
+    .nav-pills .nav-link,
+    .nav-pills .nav-link.active {
+      height: 50px;
+      width: 100%;
+      justify-content: center;
+      font-size: 16px;
+    }
+    .details-picture {
+      background-color: white;
+      padding: 10px;
+      box-shadow: 0px 3px 10px #00000029;
+      margin-bottom: 32px;
+      width: 100%;
+    }
+    .nav-items {
+      position: unset;
+    }
+    .picture-title {
+      top: 147px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      width: 40%;
+      font-size: 30px;
+    }
+    .user_support h1 {
+      font-size: 30px;
+      line-height: 40px;
+      border-bottom: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 12px;
+    }
+    .user_support {
+      display: flex;
+      justify-content: center;
+    }
+    .tab-content {
+      width: 100%;
+    }
+    .container-1 {
+      padding: 0px;
+    }
+    .user_support h2 {
+      font-size: 16px;
+    }
+    .user_support p {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    .tab-panel-content {
+      display: flex;
+      flex-direction: column;
+    }
+    .user_support .primaryBlue {
+      width: 130px;
+      height: 30px;
+      align-items: center;
+      float: left;
+      margin-top: 0px;
+      margin-bottom: 26px;
+      display: flex;
+      margin-right: 32px;
+      justify-content: center;
+    }
+    .desktop-view-btn {
+      display: none !important;
+    }
+    .mobile-view-btn {
+      display: block;
+    }
+    .picture-description {
+      display: block;
+      padding: 16px 0px 10px 0px;
+    }
+    .DTC_logos{
+      height: 250px;
+    }
+    
+    .picture-description .buttonComponent {
+      height: 36px;
+      margin-top: 10px;
+    }
+  }
+}

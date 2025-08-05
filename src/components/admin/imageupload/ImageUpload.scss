@@ -1,0 +1,128 @@
+.ImageUpload {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .imageUploadRow {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .imageUploadControls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .imageUploadTitle {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    border: 1px solid #323232;
+    box-sizing: border-box;
+  }
+  
+  .imageUploadAttach {
+    display: none;
+  }
+  .imageUploadAttach:disabled ~ label img {
+    cursor: not-allowed;
+  }
+  
+  .imageUploadIcon,
+  .imageDeleteButton,
+  .imageDeleteButtonDetails {
+    cursor: pointer;
+    padding: 0;
+    color: #ececec;
+    background-color: #323232;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .imageUploadIcon img,
+  .imageDeleteButton img,
+  .imageDeleteButtonDetails img {
+    height: 31px;
+    width: 31px;
+  }
+  
+  .imagePlusButton,
+  .imageMinusButton {
+    border: none;
+    background: none;
+    height: 31px;
+    width: 31px;
+    font-size: 2rem;
+  }
+  
+  .imageDeleteButtonDetails {
+    margin-left: 10px;
+  }
+  
+  .imageDetails {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    flex-wrap: wrap;
+  }
+  
+  .ImagesTable {
+    margin: 16px 0;
+  }
+  .ImagesTable td,
+  .ImagesTable th {
+    padding-right: 16px;
+  }
+  .ImagesTable thead {
+    font-family: "Roboto-Bold";
+  }
+  
+  @media (max-width: 600px) {
+    .imageUploadTitle {
+      max-width: 100%;
+    }
+    .imageUploadControls {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .image-gallery {
+    margin-top: 20px;
+  }
+  
+  .thumbnail {
+    max-width: 100px;
+    max-height: 80px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.05);
+  }
+  
+  .fileDeleteButtonDetails {
+    cursor: pointer;
+    padding: 0;
+    color: #ececec;
+    background-color: #323232;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    img {
+      height: 31px;
+      width: 31px;
+    }
+  }

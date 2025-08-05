@@ -1,0 +1,40 @@
+.graphNotificationCard {
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  .card_img {
+    width: 56px;
+    height: 56px;
+    background-color: #25a7ff;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    align-self: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    min-width: 56px;
+  }
+  .img-fluid {
+    width: 56px;
+    height: 56px;
+  }
+  .card_name {
+    font-size: 16px;
+    height: 40px;
+    align-content: center;
+    line-height: 18px;
+  }
+  .card_data {
+    font-size: 34px;
+    color: #25a7ff;
+    font-family: Roboto-Bold;
+    line-height: 34px;
+  }
+}
+.helpsupport_dashboard {
+  .graphNotificationCard .card_name {
+    font-size: 14px;
+  }
+}

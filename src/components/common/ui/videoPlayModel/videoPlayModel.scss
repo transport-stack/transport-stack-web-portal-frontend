@@ -1,0 +1,25 @@
+.video_play__model {
+  background: rgb(2 0 9 / 70%);
+  .modal-content {
+    background: transparent;
+    border: 0px;
+  }
+  .close_button {
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background: #000000;
+    color: white;
+    width: 24px;
+    height: 24px;
+    float: right;
+    align-items: end;
+    align-self: end;
+    border-radius: 50%;
+  }
+
+  //   .modal-header .btn-close:hover {
+  //     color: white;  /* Ensure the hover state also has the white color */
+  //   }
+}

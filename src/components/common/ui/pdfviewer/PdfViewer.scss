@@ -1,0 +1,14 @@
+.rpv-toolbar__right {
+  .rpv-core__display--block-medium {
+    display: none;
+  }
+  .rpv-toolbar__item {
+    display: none;
+  }
+  .rpv-core__display--block-medium:nth-of-type(2) {
+    display: block;
+    .rpv-toolbar__item {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.loader-01 {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  color: inherit;
+  vertical-align: middle;
+  pointer-events: none;
+  border: 0.2em dotted currentcolor;
+  border-radius: 50%;
+  animation: 2s loader-01 linear infinite;
+  margin-right: 8px;
+}
+
+@keyframes loader-01 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

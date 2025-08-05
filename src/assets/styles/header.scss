@@ -1,0 +1,362 @@
+.header-content {
+  max-width: 1360px;
+  padding: 12px 16px 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .HeaderNav {
+    .text-base {
+      padding-left: 0px;
+    }
+    a {
+      text-decoration: none;
+      color: #323232;
+      font-family: Roboto-Regular;
+      font-size: 16px;
+      line-height: 20px;
+      &.active {
+        padding-bottom: 6px;
+        border-bottom: 5px solid #0075c2;
+        font-weight: bold;
+      }
+    }
+  }
+  .userName {
+    background-color: #ffc000;
+    width: 68px;
+    height: 60px;
+    font-size: 24px;
+    font-family: Roboto-Bold;
+    img {
+      height: 6px;
+    }
+  }
+  .bell-icon {
+    height: 40px;
+    width: 38px;
+  }
+  .bell-indicator {
+    background-color: #fc4d4d;
+    border-radius: 50%;
+    min-width: 16px;
+    height: 16px;
+    margin-top: -24px;
+    margin-right: -12px;
+    z-index: 1;
+  }
+  .hamburger-icon {
+    display: none;
+  }
+  .header-list {
+    display: block;
+  }
+  .logo {
+    width: 110px;
+    height: 110px;
+  }
+  .transportStackLogo {
+    width: auto;
+    object-fit: scale-down;
+    height: 90px;
+    margin-top: 3px;
+  }
+  .NCT_seal {
+    width: auto;
+    margin-right: 24px;
+  }
+  .userName-header {
+    .show {
+      .dropdown-toggle::after {
+        &::after {
+          border-right: 4px solid transparent;
+          border-left: 4px solid transparent;
+          border-top: 0px solid red;
+          border-bottom: 4px solid;
+        }
+      }
+    }
+    .user-drop {
+      button {
+        background-color: #ffc000 !important;
+        border: 1px solid #ffc000 !important;
+        border-radius: 0px;
+        height: 60px;
+        width: 68px;
+        color: #171717 !important;
+        font-size: 24px;
+        font-family: Roboto-Bold;
+        z-index: 2;
+        position: relative;
+        align-items: center;
+        display: flex;
+      }
+      .dropdown-toggle {
+        &::after {
+          font-size: 14px;
+        }
+      }
+      .dropdown-menu {
+        background-color: #ffc000 !important;
+        border-radius: 0px;
+        padding-top: 56px;
+        top: -64px !important;
+        z-index: 2;
+        width: 224px;
+        padding-bottom: 8px;
+      }
+      .dropdown-item {
+        z-index: 3;
+        &:focus,
+        &:hover {
+          color: #000 !important;
+          background-color: #ffc000 !important;
+        }
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Roboto-Medium;
+        padding-bottom: 8px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      img {
+        padding-right: 12px;
+      }
+    }
+  }
+}
+
+.hamburgerMenu {
+  font-family: Roboto-Regular;
+  .modal-content {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    .modal-header {
+      border-bottom: 0px solid !important;
+      .close-icon {
+        color: #fff;
+        position: absolute;
+        top: 4px;
+        right: 17px;
+        font-size: 43px;
+        z-index: 1;
+        cursor: pointer;
+      }
+    }
+    .modal-body {
+      padding-left: 46px;
+      padding-right: 46px;
+      padding-bottom: 46px;
+      .HeaderNav {
+        padding-top: 40px;
+        a {
+          text-decoration: none;
+          font-size: 20px;
+          color: white;
+          &.active {
+            padding-bottom: 6px;
+            border-bottom: 5px solid #0075c2;
+            font-family: "Roboto-Bold";
+          }
+        }
+        ul {
+          margin-bottom: 0px;
+        }
+        li {
+          padding-bottom: 37px;
+        }
+      }
+      .register-btn {
+        display: none;
+      }
+    }
+  }
+}
+
+.serviceForm {
+  .modal-content {
+    background-color: white;
+    border-radius: 0px;
+  }
+}
+.profileMenu {
+  .modal-content {
+    background-color: rgba(255, 192, 0, 1) !important;
+    .modal-header {
+      border-bottom: 0px solid !important;
+      .close-icon {
+        color: black;
+        position: absolute;
+        top: 4px;
+        right: 17px;
+        font-size: 43px;
+        z-index: 1;
+        cursor: pointer;
+      }
+    }
+    .modal-body {
+      padding-left: 46px;
+      padding-right: 46px;
+      padding-top: 0px;
+      .HeaderNav {
+        padding-top: 76px;
+        a {
+          color: black;
+          font-family: Roboto-Medium;
+          font-size: 16px;
+          line-height: 23px;
+          text-decoration: none;
+        }
+        a:hover {
+          padding-bottom: 6px;
+          text-decoration: underline;
+        }
+        a.active {
+          padding-bottom: 0px;
+          border-bottom: 0px solid #0075c2;
+          font-weight: unset;
+        }
+        li {
+          padding-bottom: 24px;
+          img {
+            padding-right: 12px;
+          }
+        }
+        ul {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1199px) {
+  .header-content .HeaderNav a {
+    font-size: 14px;
+  }
+  .header-content .NCT_seal {
+    margin-right: 16px;
+  }
+  .header-content .HeaderNav ul li {
+    padding: 10px !important;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .header-content {
+    padding: 12px 16px 12px;
+    min-height: 108px;
+    .logo {
+      width: 86px;
+      height: 90px;
+    }
+    .HeaderNav {
+      margin-left: -10px;
+      a {
+        font-size: 10px !important;
+        line-height: 18px;
+        text-align: center;
+        display: flex;
+      }
+      ul {
+        li {
+          padding: 6px !important;
+        }
+      }
+    }
+    #bell-container {
+      padding-right: 5px !important;
+    }
+    .userName-header {
+      padding-left: 0px !important;
+    }
+    .userName {
+      width: 50px;
+      height: 50px;
+      img {
+        height: 4px;
+        margin-left: 2px !important;
+      }
+    }
+    .bell-icon {
+      height: 32px;
+      width: 30px;
+    }
+    .header_logos {
+      height: 60px;
+      margin-right: 16px;
+    }
+    .NCT_seal {
+      width: 50px;
+      margin-right: 11px;
+    }
+    .transportStackLogo {
+      width: 50px;
+      margin-top: -14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header-content {
+    padding: 10px 30px 30px 30px;
+    min-height: 90px;
+    .HeaderNav {
+      a {
+        font-size: 12px !important;
+        line-height: 18px;
+      }
+    }
+    .header-list {
+      display: none !important;
+    }
+    .hamburger-icon {
+      display: block !important;
+    }
+    #login-btn {
+      display: none !important;
+    }
+    .logo {
+      width: 68px;
+      height: 68px;
+    }
+    .userName {
+      width: 50px;
+      height: 50px;
+    }
+    .userName img {
+      height: 4px;
+      margin-left: 2px !important;
+    }
+    .bell-icon {
+      height: 32px;
+      width: 30px;
+    }
+    .NCT_seal {
+      width: auto;
+      height: 40px !important;
+      margin-top: 4px;
+      margin-right: 18px;
+    }
+    .transportStackLogo {
+      width: auto;
+      height: 40px;
+      margin-top: 4px;
+    }
+    .register-btn {
+      display: block;
+      .button-secondary,
+      .button-primary {
+        width: 50% !important;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 36px;
+      }
+    }
+  }
+}

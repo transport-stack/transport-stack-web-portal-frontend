@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="194" height="135" viewBox="0 0 194 135">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_21835" data-name="Rectangle 21835" width="194" height="86" transform="translate(128 1361)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_110841" data-name="Group 110841" transform="translate(-355 -1361)">
+    <g id="Group_110842" data-name="Group 110842">
+      <g id="Mask_Group_101" data-name="Mask Group 101" transform="translate(227)" clip-path="url(#clip-path)">
+        <circle id="Ellipse_190" data-name="Ellipse 190" cx="74" cy="74" r="74" transform="translate(158 1368)" fill="#e8e8e8"/>
+      </g>
+      <circle id="Ellipse_109" data-name="Ellipse 109" cx="55" cy="55" r="55" transform="translate(405 1386)" fill="#0186e0"/>
+      <circle id="Ellipse_108" data-name="Ellipse 108" cx="28" cy="28" r="28" transform="translate(432 1413)" fill="#fff"/>
+      <path id="workshop-svgrepo-com" d="M19,7s-5,7-12.5,7C4.5,14,1,15,1,19v4H12V19c0-2.5,3-1,7-8L17.5,9.5M3,5V2H23V16H20M11,1h4V3H11ZM6.5,14A3.5,3.5,0,1,0,3,10.5,3.5,3.5,0,0,0,6.5,14Z" transform="translate(448 1429)" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+export const selectUserAccessToken = (state) => state.auth.user.accessToken;

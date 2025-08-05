@@ -1,0 +1,27 @@
+.breadcrumb {
+  list-style: none;
+  li {
+    list-style: none;
+    display: inline;
+    color: #fff;
+    a {
+      padding: 4px;
+      color: #fff;
+      text-decoration: none;
+      font: normal normal normal 16px / 20px Roboto-Regular;
+      &:hover {
+        text-decoration: underline;
+      }
+      &:not(:last-child):after {
+        width: 10px;
+        height: 8px;
+        background-image: url(../../../../assets/images/breadcrumb-arrow.png);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: 4px 0px;
+        margin: 0px 4px;
+        content: "";
+      }
+    }
+  }
+}

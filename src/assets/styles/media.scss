@@ -1,0 +1,222 @@
+.media {
+  .content-header {
+    background-image: url(../images/heading-Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Roboto-Regular;
+    height: 340px;
+    padding-top: 48px;
+  }
+  .content-header .left-arrow {
+    display: none;
+  }
+  .content-header .header-title {
+    font-size: 32px;
+    font-family: Roboto-Bold;
+    color: white;
+  }
+  .media__btns .primaryWhite {
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-family: Roboto-Medium;
+    margin-right: 12px;
+    border: unset;
+  }
+
+  .content-body {
+    margin-top: -110px;
+  }
+  .videos {
+    &__title {
+      font-size: 32px;
+      font-family: Roboto-Bold;
+      color: white;
+    }
+    .card-img-top {
+      height: 200px;
+      border-radius: 0px;
+    }
+    .video_load {
+      z-index: 1;
+      height: 200px;
+      position: absolute;
+      width: 95%;
+      &_icon {
+        height: 108px;
+        width: 108px;
+      }
+    }
+    .card-title {
+      min-height: 90px;
+      font-family: "Roboto-Bold";
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 40px;
+    }
+    &__card {
+      border-radius: 0px;
+      padding: 2px;
+      margin: 12px;
+    }
+    .card-body {
+      padding: 12px;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    .card-text p {
+      line-height: 30px;
+    }
+    .duration_icon {
+      height: 22px;
+      width: 22px;
+    }
+    &__cards:nth-child(3n-2) .videos__card {
+      margin-left: 0px;
+    }
+    &__cards:nth-child(3n) .videos__card {
+      margin-right: 0px;
+    }
+  }
+  .articles {
+    &__title {
+      font-size: 32px;
+      font-family: Roboto-Bold;
+      color: #0688e0;
+    }
+    &__card {
+      border-radius: 0px;
+      padding: 2px;
+      margin: 8px;
+    }
+    .card-body {
+      padding: 12px;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    .card-img-top {
+      height: 200px;
+    }
+    .card-title {
+      min-height: 90px;
+      font-family: "Roboto-Bold";
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 40px;
+    }
+    &__cards:nth-child(3n-2) .articles__card {
+      margin-left: 0px;
+    }
+    &__cards:nth-child(3n) .articles__card {
+      margin-right: 0px;
+    }
+    .read_more {
+      font-size: 16px;
+      font-family: Roboto-Bold;
+      color: #0688e0;
+      line-height: 20px;
+      margin-top: 8px;
+    }
+  }
+  .release {
+    &__title {
+      font-size: 32px;
+      font-family: Roboto-Bold;
+      color: #0688e0;
+    }
+    &__card {
+      border-radius: 0px;
+      padding: 2px;
+      margin: 8px;
+    }
+    .card-body {
+      padding: 12px;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    .card-title {
+      min-height: 90px;
+      font-family: "Roboto-Bold";
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 40px;
+    }
+    .card-img-top {
+      height: 200px;
+    }
+    &__cards:nth-child(3n-2) .release__card {
+      margin-left: 0px;
+    }
+    &__cards:nth-child(3n) .release__card {
+      margin-right: 0px;
+    }
+    .read_more {
+      font-size: 16px;
+      font-family: Roboto-Bold;
+      color: #0688e0;
+      line-height: 20px;
+      margin-top: 8px;
+      text-decoration: none;
+    }
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .media {
+    .content-body {
+      margin-bottom: 66px;
+    }
+    .content-header {
+      margin-top: -24px;
+      .container {
+        padding-left: 40px;
+      }
+    }
+    .videos .video_load_icon {
+      height: 80px;
+      width: 80px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .media {
+    .content-body {
+      margin-bottom: 42px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: -46px;
+    }
+
+    .content-body .container,
+    .content-header .container {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .content-header .breadcrumb {
+      display: none;
+    }
+    .content-header {
+      padding-left: 30px;
+      padding-right: 30px;
+      height: 290px;
+      padding-top: 48px;
+    }
+    .content-header .header-title {
+      font-size: 26px;
+      margin-bottom: 0px;
+    }
+    .content-header .left-arrow {
+      display: block;
+      padding-right: 18px;
+    }
+    .media__btns .primaryWhite {
+      margin-bottom: 12px;
+    }
+
+    .videos__card,
+    .articles__card,
+    .release__card {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  }
+}

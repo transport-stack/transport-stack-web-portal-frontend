@@ -1,0 +1,61 @@
+.article-content {
+  .content-header {
+    background-image: url(../images/heading-Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: Roboto-Regular;
+    height: 264px;
+    padding-top: 48px;
+  }
+  .content-header .left-arrow {
+    display: none;
+  }
+  .content-header .header-title {
+    font-size: 32px;
+    font-family: Roboto-Bold;
+    color: white;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .article-content {
+    .content-body {
+      margin-bottom: 66px;
+    }
+    .content-header {
+      margin-top: -24px;
+      .container {
+        padding-left: 40px;
+      }
+    }
+    
+  }
+}
+@media only screen and (max-width: 767px) {
+  .article-content {
+    .content-body {
+      margin-bottom: 42px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    .content-header .container,
+    .content-body .container {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    .content-header {
+      padding-left: 30px;
+      padding-right: 30px;
+      height: 290px;
+      padding-top: 48px;
+    }
+    .content-header .header-title {
+      font-size: 26px;
+      margin-bottom: 0px;
+    }
+    .content-header .left-arrow {
+      display: block;
+      padding-right: 18px;
+    }
+  }
+}

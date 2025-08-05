@@ -1,0 +1,62 @@
+.account {
+  .nav-pills {
+    background-color: white;
+    border-bottom: 1px solid black;
+  }
+  .nav-link_name {
+    margin-left: 10px;
+  }
+  .nav-pills .nav-link.active {
+    color: white;
+    background-color: #25a7ff;
+  }
+  .nav-pills .nav-link {
+    color: black;
+    height: 52px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px;
+  }
+  .nav-item {
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .account {
+    .nav-item {
+      margin: 0px !important;
+    }
+    .nav-pills .nav-link {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .nav-link_name {
+      margin-left: 6px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .account {
+    .nav-pills {
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      flex-wrap: nowrap;
+    }
+    .nav-link_name {
+      font-size: 14px;
+      margin-left: 6px;
+    }
+    .nav-pills .nav-link {
+      height: 40px;
+    }
+    .nav-item {
+      margin: 0px !important;
+      margin-left: 14px;
+    }
+  }
+}

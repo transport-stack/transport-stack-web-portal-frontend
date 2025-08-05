@@ -1,0 +1,52 @@
+
+.legal-section {
+  font-family: Roboto-Regular;
+
+  h1 {
+    color: #323232;
+    margin-bottom: 18px;
+    font-size: 32px;
+    font-family: Roboto-Bold;
+  }
+  h2 {
+    font-family: Roboto-Bold;
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  hr {
+    border-top: 2px dotted #ccc;
+    opacity: 1;
+  }
+  h3 {
+    font-family: Roboto-Bold;
+    font-size: 16px;
+  }
+  .table {
+    border: 1px solid #ccc;
+    th {
+      border: 1px solid #ccc;
+    }
+    td {
+      height: 32px;
+      border: 1px solid #ccc;
+    }
+  }
+  a{
+    color: #25a7ff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Roboto-Regular;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+  p{
+    margin-bottom: 6px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .legal-section{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

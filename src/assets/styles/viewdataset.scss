@@ -1,0 +1,47 @@
+.dataset,
+.serviceset,
+.document {
+  &_title {
+    color: #25a7ff;
+    font-size: 20px;
+    font-family: Roboto-Medium;
+    margin-bottom: 40px;
+  }
+  .form-control {
+    border: 0px;
+    border-bottom: 1px solid #25a7ff;
+    background-color: #f3f3f3;
+    height: 32px;
+    border-radius: 0px;
+    font-size: 14px;
+  }
+  label {
+    font-family: Roboto-Medium;
+    margin-bottom: 0px;
+  }
+  #doc_name {
+    font-size: 14px;
+    color: #424242;
+    font-family: Roboto-Regular;
+    margin-bottom: 28px;
+    margin-left: 12px;
+  }
+  .dropdown .btn-primary {
+    margin-bottom: 0px;
+    background-color: #f3f3f3;
+    font-family: Roboto-Regular;
+    color: black;
+    min-width: 216px;
+    border: none;
+    text-align: justify;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 32px;
+    border-radius: 0px;
+  }
+  textarea {
+    height: 100px !important;
+  }
+}

@@ -1,0 +1,88 @@
+.my-subscriptionDetails {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #b4b4b4;
+  margin-top: 1.5rem;
+  .content {
+    padding: 40px;
+  }
+  .detailsPane {
+    display: flex;
+  }
+  .details {
+    font: normal normal normal 18px/25px Roboto-Regular;
+    padding: 0;
+    letter-spacing: 0px;
+    color: #323232;
+  }
+  .detailHeader {
+    font: normal normal normal 24px/30px Roboto-Bold;
+    padding-bottom: 8px;
+  }
+  .requestHeader {
+    font: normal normal normal 24px/30px Roboto-Bold;
+  }
+  .dataDetails {
+    margin-left: 1.5rem;
+  }
+  .actions {
+    display: flex;
+    margin-top: 16px;
+  }
+  .detailImg {
+    width: auto;
+    height: 174px;
+    object-fit: cover;
+    max-width: 330px;
+  }
+  .action {
+    height: 40px;
+    min-width: 120px;
+  }
+}
+.register_header{
+  justify-content: space-between;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .my-subscriptionDetails .content {
+    padding: 6px !important;
+  }
+  .my-subscriptionDetails .detailImg {
+    width: 100%;
+  }
+  .my-subscriptionDetails .detailsPane {
+    flex-direction: column;
+    align-items: start;
+  }
+  .my-subscriptionDetails .detailHeader {
+    margin-top: 15px;
+  }
+
+  .my-subscriptionDetails .dataDetails {
+    margin-left: 0rem;
+  }
+  .my-subscriptionDetails .actions {
+    flex-direction: column;
+    align-items: start;
+  }
+  .actions .action {
+    margin-bottom: 10px;
+    min-width: 100%;
+  }
+  .register_header{
+    flex-direction: column;
+  }
+  .buttonComponent.primaryWhite {
+    margin-top: 12px !important;
+    width: 120px;
+  }
+  .modal-content {
+    .buttonComponent.primaryWhite {
+      margin-top: 0px !important;
+      width: 120px;
+    }
+    .modal-body p{
+      font-size: 16px !important;
+    }
+}
+}
