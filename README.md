@@ -1,26 +1,48 @@
+# Transport Stack Web Portal Frontend
 
-## Available Scripts
+Frontend application for the Transport Stack web portal. Built with React, this project provides the user interface for interacting with the Transport Stack ecosystem.
+
+## Tech Stack
+
+- React
+- JavaScript / TypeScript
+- npm
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (LTS)
+- npm
+
+### Setup
+
+```bash
+git clone https://github.com/transport-stack/transport-stack-web-portal-frontend.git
+cd transport-stack-web-portal-frontend
+npm install
+```
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### `npm test`
 
-### `npm test`
+Launches the test runner in interactive watch mode.
 
-Launches the test runner in the interactive watch mode.\
+#### `npm run build`
 
+Builds the app for production to the `build` folder.
 
-### `npm run build`
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+See the organization-wide [Contributing Guidelines](https://github.com/transport-stack/.github/blob/main/CONTRIBUTING.md).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## License
 
+Apache 2.0
